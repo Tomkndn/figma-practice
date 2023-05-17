@@ -6,9 +6,12 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 nav{
-    margin: 10px 40px;
+    padding: 10px 40px;
+    position: sticky;
+    top: 0px;
     display: flex;
     justify-content: space-between;
+    background-color: #fff;
     align-items: center;
 }
 .form-control{
@@ -54,10 +57,13 @@ nav{
     padding-left: 20px;
 }
 .header{
+    position: sticky;
+    top: 60px;
     display: flex;
     gap: 20px;
     margin: 40px 100px 10px 100px;
     line-height: 50px;
+    background-color: #fff;
     border-bottom: #8A8A8A solid 1px;
 }
 .dropdown{
