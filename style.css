@@ -29,7 +29,7 @@ nav{
     font-weight: 900;
 }
 #background{
-    background: url('background.svg');
+    background: url('Assets/background.svg');
     object-fit: cover;
     background-size: cover;
     background-position: center;
@@ -78,6 +78,18 @@ nav{
 .btn-primary{
     height: 37px;
 }
-.btn-primary>img{
+.shift{
     margin-right: 5px;
 }
+.location>p{
+    opacity: 60%;
+}
+b{
+    margin: 5px 0px;
+    font-size: 20px;
+}
+.card-text{
+    opacity: .7;
+    /* margin-bottom: 5px; */
+}
+

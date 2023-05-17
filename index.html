@@ -7,22 +7,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <title>ATG</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="main-icon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/main-icon.svg" type="image/x-icon">
 </head>
 <body>
     <nav>
         <div class="title">
-            <img src="icon.svg" alt="icon">
+            <img src="icons/info.svg" alt="icon">
         </div>
         <div class="search">
             <form class="d-flex" role="search">
-                <img src="search.svg" alt="search" id="search-icon">
+                <img src="icons/search.svg" alt="search" id="search-icon">
                 <input class="form-control me-2" type="search" placeholder="Search for your favorite groups in ATG" aria-label="Search">
             </form>
         </div>
         <div class="account">
             Create account. <span id="highlight">It's free!</span>
-            <img src="down-arrow.svg" alt="down-arrow">
+            <img src="icons/down-arrow.svg" alt="down-arrow">
         </div>
     </nav>
     <section id="background">
@@ -50,20 +50,76 @@
                     <a class="dropdown-item" href="#">Something else here</a>
                 </div>
             </div>
-            <button type="button" class="btn btn-primary align-self-center"><img src="more.svg" alt="plus">Join Group</button>
+            <button type="button" class="btn btn-primary align-self-center"><img src="icons/more.svg" class="shift" alt="plus">Join Group</button>
         </header>
-        <content class="d-flex flex-row-reverse">
-            <div class="location mt-5">
-                <img src="loc.svg">
-                Noida, India <img align="right" src="edit.svg">
+        <content class="d-flex flex-row-reverse justify-content-between" style="gap: 40px; margin: 40px 100px 10px 100px;">
+            <div class="location mt-5" style="width:25%;">
+                <img src="icons/loc.svg">
+                Noida, India <img align="right" class="shift" src="icons/edit.svg">
                 <hr>
-                <p>Your location will help us serve better and extend a personalised experience.</p>
+                <p><img src="icons/info.svg" class="shift">Your location will help us serve better and extend a personalised experience.</p>
             </div>
             <main>
-                <section></section>
-                <section></section>
-                <section></section>
-                <section></section>
+                <section class="card mb-3">
+                    <img src="Assets/img1.svg" class="card-img-top" alt="..." style="height: 50%;">
+                    <div class="card-body">
+                        <h6 class="card-title">✍️ Article</h6>
+                        <b>What if famous brands had regular fonts? Meet RegulaBrands!.</b><img src="icons/options.svg" alt="option" align="right">
+                        <p class="card-text mb-3">I've worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                    </div>
+                    <footer class="d-flex m-3" style="gap: 15px">
+                        <img src="Assets/icon1.svg" alt="icon">
+                        <div class="align-self-center">Sarthak Kamra</div>
+                        <img src="icons/eye.svg" style="margin-left: auto;" alt="eye">
+                        <div class="align-self-center">1.4k views</div>
+                        <img src="icons/share.svg" alt="share">
+                    </footer>
+                </section>
+                <section class="card mb-3">
+                    <img src="Assets/img2.svg" class="card-img-top" alt="..." style="height: 50%;">
+                    <div class="card-body">
+                        <h6 class="card-title">🔬️ Education</h6>
+                        <b>Tax Benefits for Investment under National Pension Scheme launched by Government</b><img src="icons/options.svg" alt="option" align="right">
+                        <p class="card-text mb-3">I've worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                    </div>
+                    <footer class="d-flex m-3" style="gap: 15px">
+                        <img src="Assets/icon2.svg" alt="icon">
+                        <div class="align-self-center">Sarthak Kamra</div>
+                        <img src="icons/eye.svg" style="margin-left: auto;" alt="eye">
+                        <div class="align-self-center">1.4k views</div>
+                        <img src="icons/share.svg" alt="share">
+                    </footer>
+                </section>
+                <section class="card mb-3">
+                    <img src="img1.svg" class="card-img-top" alt="..." style="height: 50%;">
+                    <div class="card-body">
+                        <h6 class="card-title">✍️ Article</h6>
+                        <b>What if famous brands had regular fonts? Meet RegulaBrands!.</b><img src="options.svg" alt="option" align="right">
+                        <p class="card-text mb-3">I've worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                    </div>
+                    <footer class="d-flex m-3" style="gap: 15px">
+                        <img src="icon1.svg" alt="icon">
+                        <div class="align-self-center">Sarthak Kamra</div>
+                        <img src="icons/eye.svg" style="margin-left: auto;" alt="eye">
+                        <div class="align-self-center">1.4k views</div>
+                        <img src="icons/share.svg" alt="share">
+                    </footer>
+                </section>
+                <section class="card mb-3">
+                    <img src="img1.svg" class="card-img-top" alt="..." style="height: 50%;">
+                    <div class="card-body">
+                        <h6 class="card-title">✍️ Article</h6>
+                        <b>What if famous brands had regular fonts? Meet RegulaBrands!.</b><img src="options.svg" alt="option" align="right">
+                        <p class="card-text mb-3">I've worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                    </div>
+                    <footer class="d-flex m-3" style="gap: 15px">
+                        <img src="icon1.svg" alt="icon">
+                        <div class="align-self-center">Sarthak Kamra</div>
+                        <img src="icons/eye.svg" style="margin-left: auto;" alt="eye">
+                        <div class="align-self-center">1.4k views</div>
+                        <img src="icons/share.svg" alt="share">
+                    </footer>
+                </section>
             </main>
         </content>
     </article>
