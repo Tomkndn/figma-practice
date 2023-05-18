@@ -7,6 +7,7 @@
 }
 nav{
     padding: 10px 40px;
+    z-index: 1;
     position: sticky;
     top: 0px;
     display: flex;
@@ -58,7 +59,8 @@ nav{
 }
 .header{
     position: sticky;
-    top: 60px;
+    z-index: 1;
+    top: 50px;
     display: flex;
     gap: 20px;
     margin: 40px 100px 10px 100px;
@@ -98,4 +100,9 @@ b{
     opacity: .7;
     /* margin-bottom: 5px; */
 }
-
+svg{
+    cursor: pointer;
+}
+.modal-backdrop{
+    z-index: 0;
+}
