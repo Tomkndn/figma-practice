@@ -104,5 +104,5 @@ svg{
     cursor: pointer;
 }
 .modal-backdrop{
-    z-index: 0;
+    z-index: 20;
 }
